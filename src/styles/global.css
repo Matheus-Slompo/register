@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: 'Poppins', sans-serif;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  border: 1px solid #202020;
+  border-radius: 4px;
+  height: 30px;
+  background: transparent;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.container {
+  height: 836px;
+  width: 706px;
+  background: #e5ff7c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 4px;
+  border: 2px solid #202020;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+  margin: 94px 0;
+}
+
+.container h1 {
+  margin-top: 32px;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 544px;
+  gap: 32px;
+  margin-top: 32px;
+}
+
+.teste {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+form label {
+  width: 100%;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+form label select {
+  display: block;
+  width: 100%;
+  height: 39px;
+  margin-top: 10px;
+  border-radius: 4px;
+  background: transparent;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+form textarea {
+  display: block;
+  width: 100%;
+  height: 139px;
+  border: 0;
+  resize: none;
+  background: transparent;
+}
+
+.experience {
+  border: 1px solid #202020;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.experience p {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
